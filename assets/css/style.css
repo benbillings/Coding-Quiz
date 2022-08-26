@@ -1,0 +1,42 @@
+.centertext {
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    top: 3em;
+    font-family: 'Roboto Condensed', roboto, sans-serif;
+    font-size: 2.5em;
+}
+
+.start-btns {
+    display: flex;
+    align-content: space-around;
+    flex-flow: row no-wrap;
+    position: relative;
+    left: 20%;
+    top: 15em;
+}
+
+.start-btns button {
+    width: 20%;
+    height: 100px;
+    margin: 0px 5%;
+}
+
+.start-btns button:hover {
+    box-shadow: 2px 2px 20px black;
+    cursor: pointer;
+}
+
+#exit-btn {
+    background-color: red;
+}
+
+#start-btn {
+    background-color: green;
+}
+
+.btn-text {
+    font-size: 2.5em;
+}
